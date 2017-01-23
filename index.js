@@ -31,6 +31,7 @@ var jaunt = function (dir, callback) {
 
           //If it has something look for it again
           jaunt(file, function (err, result) {
+            if (err) return callback(err);
             data.filenames = data.filenames.concat(result.filenames);
             data.dirnames = data.dirnames.concat(result.dirnames);
             if (!--imminent) { callback(null, data); }
