@@ -1,6 +1,6 @@
 {
   "name": "ubiquitous-file-walker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A function that can retrieve the contents of a given target path and all its subdirectories.",
   "main": "index.js",
   "scripts": {

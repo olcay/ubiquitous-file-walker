@@ -35,4 +35,5 @@ Add unit tests for any new or changed functionality.
 
 ## Release History
 
+* 0.1.1 Handled file permission error
 * 0.1.0 Initial release
